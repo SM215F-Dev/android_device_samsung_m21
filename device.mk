@@ -61,4 +61,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Inherit device vendor
-$(call inherit-product-if-exists, vendor/samsung/m31/m31-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/m21/m21-vendor.mk)
